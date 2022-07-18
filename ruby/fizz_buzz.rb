@@ -11,6 +11,6 @@ def fizz_buzz(num)
 end
 
 puts "数字を入力してください"
-num = gets
+num = gets.to_i
 puts "結果は…"
-puts fizz_buzz
+puts fizz_buzz(num)
